@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+}
+
+.inform {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.about_me {
+  padding-right: 150px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.size {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.chart_title, .menu p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.bg {
+  height: auto;
+  opacity: 0.4;
+  margin-left: -30%;
+}
+
+.yellow {
+  color: yellow;
+  font-size: 36px;
+}
+
+.chart {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.chart .pipe {
+  background: #eee;
+  box-shadow: inset 3px 3px 3px 0px rgba(200, 200, 200, 1);
+}
+
+.chart .pipe {
+  border-radius: 3px;
+  height: 7px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.chart p {
+  margin: 0 0 5px;
+}
+
+.chart .pipe > div {
+  background: rgb(59, 71, 59)  repeat-x scroll left top transparent;
+  border: 1px solid #84ae62;
+  border-radius: 3px;
+  height: 5px;
+}
+
+.menu a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #4b4848;
+  text-transform: uppercase
+}
+
+.menu a:hover {
+  color: rgb(241, 170, 37);
+}
+
+.menu li {
+  margin-bottom: 25px;
+}
+.name {
+  text-transform: none;
+  font-size: 10px;
+}

@@ -1,0 +1,98 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+  .bg {
+    height: 100vh;
+    margin-left: -55%;
+  }
+  .about_me {
+    margin-top: 45px;
+    font-size: 30px;
+  }
+  .chart_title, .menu p {
+    font-size: 30px;
+  }
+  .chart .pipe {
+    height: 15px;
+    width: 90%;
+  }
+  .chart p {
+    font-size: 30px;
+  }
+  .menu a {
+    font-size: 25px;
+  }
+  .size {
+    font-size: 20px;
+  }
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+  .bg {
+    height: auto;
+    margin-left: -20%;
+  }
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+  .bg {
+    margin-left: -35%;
+  }
+  .about_me {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .chart_title, .menu p {
+    font-size: 20px;
+  }
+  .chart .pipe {
+    height: 7px;
+    width: 95%;
+  }
+  .chart p {
+    font-size: 17px;
+  }
+  .menu a {
+    font-size: 20px;
+  }
+  .size {
+    font-size: 13px;
+  }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+
+}
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .bg {
+    height: 50%;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .about_me {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+  section {
+    margin-right: 15px;
+  }
+  .chart p {
+    font-size: 11px;
+  }
+
+}

@@ -1,0 +1,306 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+  .services__text {
+    margin: 0 70px 98px 70px;
+    text-align: justify;
+  }
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+  .desktop_img {
+    padding-right: 100px;
+  }
+  .information__title {
+    font-size: 30px;
+  }
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+  ul {
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 50px 0 50px;
+  }
+  .desktop_img {
+    padding-right: 50px;
+  }
+  .about_us {
+    margin: 96px 100px 102px 100px;
+  }
+
+  .information__title {
+  text-align: center;
+  }
+  .our_team__teams {
+    padding: 0 50px 167px 50px;
+  }
+  .service {
+    margin: 0px 50px 96px 50px;
+  }
+  .clients__items {
+    display: block;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .clients__items img {
+    margin-top: 20px;
+  }
+  .contact__desc-text {
+    padding: 56px 100px 95px 100px;
+  }
+  .trend {
+    margin: 0 250px 0 250px;
+  }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+  .trend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .trend img {
+    width: 100vh;
+    height: 100vh;
+  }
+  .header {
+    height: 500px;
+  }
+  .headline__title {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.headline__text {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.desktop_img {
+padding: 70px 90px 70px 90px;
+}
+.information__menu {
+  padding-bottom: 30px;
+}
+.about {
+  padding-left: 0px;
+}
+.desc__title {
+  font-size: 34px;
+}
+.desc__text {
+  padding: 56px 100px 100px 100px;
+}
+.trend img {
+  width: 70%;
+  height: 70%;
+}
+.testimonials__text {
+  text-align: center;
+  padding: 100px 100px 37px 100px;
+}
+.testimonials__title {
+  font-size: 30px;
+}
+.contact__desc-text {
+  padding: 56px 100px 95px 100px;
+}
+textarea {
+  width: 740px;
+}
+.menu__teams a {
+  font-size: 10px;
+}
+.header__headline {
+  padding-top: 100px;
+}
+.information__title {
+  font-size: 30px;
+}
+.about_us {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px 0px 25px;
+}
+.service {
+  margin: 0px 20px 80px 20px;
+}
+.service__title {
+  font-size: 20px;
+  text-align: center;
+}
+.service__text {
+  text-align: justify;
+}
+
+}
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+  .clients__title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .clients__items {
+    padding-top: 70px;
+  }
+  .service {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .service__text {
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 75px;
+  }
+  .our_team__teams {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .our_team__teams-people {
+    margin-bottom: 50px;
+  }
+  .about {
+    margin-left: 0px;
+  }
+  .form__inputs {
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+  .form__inputs p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .red {
+    color: #fff;
+  }
+  textarea {
+    width: 700px;
+    margin-left: 10px;
+  }
+  .message {
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .button__block {
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  .desc__text {
+    padding: 56px 20px 100px 20px;
+    text-align: justify;
+  }
+  .testimonials__text {
+    text-align: justify;
+    padding: 70px 20px 37px 20px;
+    font-size: 12px;
+  }
+  .contact__desc-text {
+    padding: 56px 20px 95px 20px;
+    text-align: justify;
+  }
+  textarea {
+    width: 360px;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .information {
+    padding-left: 10%;
+  }
+  .desktop_img {
+    width: 75%;
+    height: 75%;
+    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-left: 13%;
+  }
+  .headline__text {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .headline__title {
+    font-size: 34px;
+  }
+
+}
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+  .header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .menu__teams a {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .header__headline {
+    padding-top: 50px;
+  }
+  .headline__title {
+    font-size: 20px;
+  }
+  .headline__text {
+    font-size: 12px;
+  }
+  .information__title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .information__text {
+    font-size: 15px;
+  }
+  .information__menu-teams {
+    font-size: 15px;
+  }
+  .our_team__teams {
+    padding: 0 25px 167px 25px;
+  }
+  .services__text {
+    margin: 0 20px 98px 20px;
+  }
+  .service {
+    margin: 0px 20px 96px 20px;
+  }
+  .clients__title {
+    font-size: 25px;
+  }
+  .desc__title {
+    font-size: 23px;
+  }
+  .testimonials__title {
+    font-size: 23px;
+  }
+  textarea, input {
+    width: 300px;
+  }
+  .testimonials__text {
+    font-size: 10px;
+  }
+
+
+}

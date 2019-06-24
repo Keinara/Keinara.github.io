@@ -1,0 +1,30 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+  .main-header {
+    text-align: center;
+    flex-direction: column;
+  }
+
+   
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+   
+}
+
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    
+}

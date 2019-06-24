@@ -1,0 +1,139 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .offer__bg {
+        font-size: 200px;
+    }
+    .offer__title {
+        margin-left: 80px;
+        margin-top: 100px;
+        
+    }
+    .offer__text {
+        margin-left: 150px;
+    }
+    .offer__btn {
+        margin-left: 240px;
+    }
+    .next {
+      font-size: 200px;
+        width: 220px;
+        left: 75%;
+    }
+    .braah {
+        display: none;
+    }
+    .service {
+        flex-direction: column;
+    }
+    .service__item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .logo {
+      position: relative;
+      top: auto;
+      left: auto;
+    }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    .next {
+        display: none;
+    }
+    .credits {
+        flex-direction: column;
+    }
+    .credits > * {
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding: 100px 0;
+    }
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .offer__bg {
+        font-size: 100px;
+    }
+    .offer__title {
+        font-size: 35px;
+        width: auto;
+        margin-left: auto;
+    }
+    .offer__text {
+        margin-left: 0;
+        width: auto;
+    }
+    .offer {
+        position: relative;
+        left: auto;
+        top: auto;
+        padding-top: 300px;
+    }
+    .offer__btn {
+        margin-left: 0;
+    }
+    .header {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 15px;
+    }
+    nav {
+        position: relative;
+        right: auto;
+        top: auto;
+        float: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+    .scroll {
+        height: 70px;
+        font-size: 17px;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+    .service {
+        margin-bottom: 100px;
+        margin-left: 25px;
+    }
+    .offer__title:after {
+        display: none;
+    }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .scroll {
+    display: none;
+    }
+    .section-title__title {
+        font-size: 60px;
+    }
+    .section-title__title:after {
+        display: none;
+    }
+    .service {
+        margin-bottom: 100px;
+        margin-left: 35px;
+    }
+    .offer {
+        text-align: center;
+    }
+
+}
